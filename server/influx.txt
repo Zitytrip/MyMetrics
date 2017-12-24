@@ -1,0 +1,14 @@
+CREATE DATABASE telegraf_database 
+CREATE RETENTION POLICY six_month_only ON telegraf_database DURATION 26w 
+REPLICATION 1 DEFAULT
+
+# Define a read/write user
+CREATE USER telegraf WITH PASSWORD 'regenschirm13'
+GRANT ALL ON telegraf_database TO telegraf
+SHOW GRANTS FOR telegraf
+
+# Define a read only user
+CREATE USER grafana WITH PASSWORD 'regenschirm13'
+GRANT READ ON telegraf_database TO grafana
+SHOW GRANTS FOR grafana
+exit
