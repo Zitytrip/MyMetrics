@@ -1,8 +1,9 @@
 var Lynx = require ("lynx");
 
+
 console.log("sending metrics via lynx library to statsd (running via telegraf) to influxdb");
 
-var metrics = new Lynx ("51.15.198.201", 8125);
+var metrics = new Lynx ("metrics.hoertlehner.com", 8125);
 
 metrics.increment ("zitytrip.cc_charged");
 
@@ -14,8 +15,8 @@ function updateGauges() {
   var a = Math.random() + 3;
   var b = Math.random();
   console.log (`  a ${a}  b  ${b}  `);
-  metrics.gauge('a', a);
-  metrics.set('b', b);
+  metrics.gauge('a', a); // das ist ein "messwert"
+  metrics.set('b', b); // das wird auf-akkumuliert
 
 metrics.increment('example3.counter2');
   setTimeout(updateGauges, 500);

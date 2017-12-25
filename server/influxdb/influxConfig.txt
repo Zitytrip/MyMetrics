@@ -1,3 +1,7 @@
+
+Note: How can I run this in a influx session??
+
+
 CREATE DATABASE telegraf_database 
 CREATE RETENTION POLICY six_month_only ON telegraf_database DURATION 26w 
 REPLICATION 1 DEFAULT

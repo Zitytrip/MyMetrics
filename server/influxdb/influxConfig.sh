@@ -1,3 +1,7 @@
+#/bin/bash
+
+#influx db
+
 echo "telegraph database..."
 influx -execute "CREATE DATABASE telegraf" 
 influx -execute "CREATE RETENTION POLICY six_month_only ON telegraf DURATION 26w REPLICATION 1 DEFAULT"
