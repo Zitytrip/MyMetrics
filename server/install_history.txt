@@ -1,0 +1,327 @@
+    1  ls
+    2  apt-cache search influxdb
+    3  apt-get install influxdb -y
+    4  pwd
+    5  nano creadteDB.sh
+    6  chmod a+x ./creadteDB.sh
+    7  ./creadteDB.sh
+    8  nano creadteDB.sh
+    9  ./creadteDB.sh
+   10  influx
+   11  apt-cache search influxdb
+   12  apt-get install influxdb-client -y
+   13  influx
+   14  cp ./creadteDB.sh influx.txt
+   15  nano influx.txt
+   16  cat influx.txt | influx
+   17  nano influx.txt
+   18  cat influx.txt | influx
+   19  cat influx.txt | echo
+   20  cat influx.txt 
+   21  3chi ddd
+   22  echo ddd
+   23  influx ffff
+   24  influx -help
+   25  influx -execute `cat influx.txt`
+   26  echo `cat influx.txt`
+   27  systemctl status influxdb
+   28  ls
+   29  nano creadteDB.sh 
+   30  ./creadteDB.sh
+   31  nano creadteDB.sh 
+   32  ./creadteDB.sh
+   33  nano creadteDB.sh 
+   34  ./creadteDB.sh
+   35  nano creadteDB.sh 
+   36  ./creadteDB.sh
+   37  nano creadteDB.sh 
+   38  ./creadteDB.sh
+   39  nano creadteDB.sh 
+   40  ./creadteDB.sh
+   41  nano creadteDB.sh 
+   42  ./creadteDB.sh
+   43  apt-caxhe search telegraph
+   44  apt-cache search telegraph
+   45  apt-cache search telegra
+   46  apt-cache search telegraf
+   47  telegraf
+   48  nano telegraf.sh
+   49  nano telegraf.sh
+   50  chmod a+x ./telegraf.sh
+   51  ./telegraf.sh
+   52  nano telegraf.sh
+   53  ./telegraf.sh
+   54  ls
+   55  ls -alfg
+   56  nano telegraf.sh
+   57  rm *.deb
+   58  ls
+   59  ./telegraf.sh
+   60  nano telegraf.sh
+   61  ./telegraf.sh
+   62  systemctl status telegraf
+   63  ls
+   64  nano /etc/telegraf/telegraf.conf
+   65  cat /etc/telegraf/telegraf.conf | grep statsd
+   66  cat /etc/telegraf/telegraf.conf | grep -nrstatsd
+   67  cat /etc/telegraf/telegraf.conf | grep -nrstatsd
+   68  cat /etc/telegraf/telegraf.conf | grep -nrstatsd
+   69  cat /etc/telegraf/telegraf.conf | grep -nr statsd
+   70  nano /etc/telegraf/telegraf.conf
+   71  emacs
+   72  apt-get install emacs
+   73  apt-get update
+   74  uname -a
+   75  apt-get install emacs
+   76  emacs
+   77  ls
+   78  emaca
+   79  emacs
+   80  clear
+   81  netstat -lntu | grep 8125
+   82  apt-get install grafana
+   83  apt-cache searxh grafana
+   84  apt-cache search grafana
+   85  nano g.sh
+   86  chmod a+x ./g.sh
+   87  ./g.sh
+   88  https://dl.bintray.com/fg2it/deb
+   89  nano g.sh
+   90  ./g.sh
+   91  ls
+   92  nano g.sh
+   93  ./g.sh
+   94  systemctl status grafana
+   95  systemctl status grafana-server
+   96  ls
+   97  history
+   98  ¡70
+   99  nano /etc/telegraf/telegraf.conf 
+  100  nano /etc/telegraf/telegraf.conf 
+  101  ls
+  102  mc
+  103  apt-get install mc
+  104  mc
+  105  ls
+  106  clear
+  107  history
+  108  grep -nr stats /etc/telegraf/telegraf.conf 
+  109  grep -nr statsd /etc/telegraf/telegraf.conf 
+  110  nano /etc/telegraf/telegraf.conf 
+  111  grep -nr statsd /etc/telegraf/telegraf.conf 
+  112  nano /etc/telegraf/telegraf.conf -c
+  113  systemctl restart telegraph
+  114  influx
+  115  systemctl statud telegraf
+  116  systemctl status telegraf
+  117  history
+  118  grep -nr statsd /etc/telegraf/telegraf.conf 
+  119  grep -nr influx /etc/telegraf/telegraf.conf 
+  120  ls
+  121  cat creadteDB.sh 
+  122  history
+  123  nano /etc/telegraf/telegraf.conf 
+  124  systemctl restart telegraf
+  125  systemctl status telegraf
+  126  nano /etc/telegraf/telegraf.conf 
+  127  systemctl restart telegraf
+  128  systemctl status telegraf
+  129  history
+  130  cat creadteDB.sh 
+  131  influx --help
+  132  influx -username telegraf
+  133  influx -username telegrafd
+  134  systemctl restart influx
+  135  systemctl restart influxdb
+  136  systemctl status influxdb
+  137  influx
+  138  history
+  139  systemctl restart telegraf
+  140  systemctl status telegraf
+  141  ls
+  142  nano creadteDB.sh 
+  143  influx -username bongo
+  144  nano creadteDB.sh 
+  145  ./creadteDB.sh 
+  146  systemctl restart influxdb
+  147  systemctl restart telegraf
+  148  systemctl status telegraf
+  149  ./creadteDB.sh 
+  150  history
+  151  systemctl status telegraf
+  152  systemctl restart telegraf
+  153  systemctl status telegraf
+  154  ls
+  155  systemctl status influxdb
+  156  ls
+  157  ls
+  158  history
+  159  systemctl restart telegraf
+  160  systemctl status telegraf
+  161  netstat -lntu | grep 8125
+  162  netstat -lntu | grep 8125 netstat -lntu | grep 8125
+  163  netstat -lntu | grep 8125 netstat -lntu | grep 8125^C
+  164  nano checkStatsd.sh
+  165  chmod a+x ./checkStatsd.sh
+  166  ./checkStatsd.sh
+  167  ./checkStatsd.sh
+  168  echo "dummy.bongo:1|c" | nc -C -w 1 -u localhost 8125
+  169  echo "dummy.bongo:1|c" | nc -C -w 1 -u localhost 8125
+  170  echo "dummy.bongo:1|c" | nc -C -w 1 
+  171  echo "dummy.bongo:1|c" 
+  172  nc
+  173  nc -h
+  174  echo "dummy.bongo:1|c" | nc -C -w 1 
+  175  nano dummyMetric.sh
+  176  history
+  177   echo "dummy.bongo:1|c" | nc -C -w 1 -u localhost 8125
+  178  nano dummyMetric.sh
+  179  chmod a+x ./dummyMetric.sh
+  180  ./dummyMetric.sh
+  181  systemctl status telegraf#
+  182  systemctl status telegraf
+  183  systemctl status grafana#
+  184  systemctl status grafana
+  185  systemctl status grafana-server
+  186  systemctl start grafana-server
+  187  systemctl status grafana-server
+  188  systemctl status grafana-server
+  189  systemctl status grafana-server
+  190  influx
+  191  ls
+  192  cat creadteDB.sh 
+  193  nano creadteDB.sh 
+  194  ./creadteDB.sh 
+  195  nano creadteDB.sh 
+  196  ./creadteDB.sh 
+  197  systemctlk status influxdb
+  198  systemctl status influxd
+  199  influx
+  200  syystemctl restart influxdb
+  201  systemctl restart influxdb
+  202  systemctl status influxdb
+  203  influx  --username grafana --password 'regenschirm13'
+  204  sl
+  205  ls
+  206  history
+  207  nano /etc/telegraf/telegraf.conf 
+  208  nano /etc/telegraf/telegraf.conf 
+  209  systemctl restart telegraf
+  210  systemctl status telegraf
+  211  systemctl status telegraf
+  212  influx
+  213  ls
+  214  git clone https://github.com/awb99/MyMetrics.gi
+  215  apt-get install git
+  216  git clone https://github.com/awb99/MyMetrics.git
+  217  ls
+  218  mkdir MyMetrics/server
+  219  ls
+  220  mv *.sh MyMetrics/server/
+  221  ls
+  222  cat influx.txt 
+  223  mv *.txt MyMetrics/server/
+  224  ls
+  225  cd MyMetrics/server/
+  226  ls
+  227  git status
+  228  git add .
+  229  git status
+  230  git commit -a -m 'server setup added'
+  231  git push
+  232  ls
+  233  git pull
+  234  git push
+  235  ls
+  236  cd ..
+  237  ls
+  238  nano influx.js
+  239  clear
+  240  nano influx.js
+  241  npm install influx express --save
+  242  apt-get install node
+  243  apt-get install nodejs
+  244  npm install influx express --save
+  245  apt-get install npm
+  246  node --version
+  247  nodejs
+  248  nodejs --version
+  249  ls
+  250  nano influx.js
+  251  git status
+  252  git add *.js
+  253  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+  254  apt-get install nodejs
+  255  npm install influx express --save
+  256  ls
+  257  nodr influx.js 
+  258  node influx.js 
+  259  nano influx.js 
+  260  node influx.js 
+  261  nano influx.js 
+  262  node influx.js 
+  263  nano influx.js 
+  264  node influx.js 
+  265  nano influx.js 
+  266  node influx.js 
+  267  ls
+  268  node influx.js 
+  269  nano influx.js 
+  270  node influx.js 
+  271  nano influx.js 
+  272  node influx.js 
+  273  nano influx.js 
+  274  node influx.js 
+  275  nano influx.js 
+  276  node influx.js 
+  277  nano influx.js 
+  278  npm install --save os
+  279  node influx.js 
+  280  nano influx.js 
+  281  node influx.js 
+  282  node influx.js 
+  283  git status
+  284  git commit -a -m "influx client added"
+  285  git push
+  286  node influx.js 
+  287  ls
+  288  cd server/
+  289  ls
+  290  history
+  291  nano /etc/telegraf/telegraf.conf 
+  292  systemctl restart telegraf
+  293  systemctl status telegraf
+  294  systemctl stop telegraf
+  295  systemctl status telegraf
+  296  systemctl status telegraf
+  297  systemctl start telegraf
+  298  systemctl status telegraf
+  299  git status
+  300  systemctl status telegraf
+  301  systemctl status telegraf
+  302  ls
+  303  systemctl status influxdb
+  304  systemctl status grafana-server
+  305  systemctl status graphite
+  306  ls
+  307  cd MyMetrics/
+  308  ls
+  309  cd server
+  310  ls
+  311  systemctl status grafana
+  312  systemctl status grafana-server
+  313  systemctl enable grafana-server
+  314  systemctl status grafana-server
+  315  systemctl start grafana-server
+  316  systemctl status grafana-server
+  317  ls
+  318  systemctl status telegraf
+  319  systemctl status grafana-server
+  320  grafana-cli plugins install raintank-worldping-app
+  321  systemctl restart grafana-server
+  322  grafana-cli plugins install grafana-clock-panel
+  323  systemctl restart grafana-server
+  324  ls
+  325  ls
+  326  history
+  327  history >> install_history.txt
