@@ -12,7 +12,7 @@ async function demo () {
     console.log(dbnames);
 
     var query = `
-        select * from zitytrip3`;
+        select * from cpu`;
 
 //        where host = ${Influx.escape.stringLit(os.hostname())}
 //        order by time desc
