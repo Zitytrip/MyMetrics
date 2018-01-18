@@ -1,0 +1,8 @@
+
+# NODE-JS DEMO APPLICATIONS
+  241  npm install influx express --save
+  253  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+  254  apt-get install nodejs
+  255  npm install influx express --save
+  257  nodr influx.js 
+  278  npm install --save os
