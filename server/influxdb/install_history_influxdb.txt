@@ -1,0 +1,19 @@
+# INFLUX DB - Timeseries Datbase
+apt-get install influxdb -y
+nano creadteDB.sh
+chmod a+x ./creadteDB.sh
+./creadteDB.sh
+influx
+influx -username telegraf
+influx -username telegrafd
+systemctl restart influxdb
+systemctl status influxdb
+influx  --username grafana --password 'regenschirm13'
+
+
+apt-get install influxdb-client -y
+influx
+cp ./creadteDB.sh influx.txt
+influx -execute `cat influx.txt`
+
+

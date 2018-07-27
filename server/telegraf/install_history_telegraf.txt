@@ -1,0 +1,17 @@
+
+# TELEGRAF - Metrics Collection Agent
+apt-cache search telegraf
+telegraf
+nano telegraf.sh
+chmod a+x ./telegraf.sh
+./telegraf.sh
+systemctl status telegraf
+netstat -lntu | grep 8125
+
+# CREATE DEMO METRICS
+echo "dummy.bongo:1|c" | nc -C -w 1 -u localhost 8125
+nano dummyMetric.sh
+chmod a+x ./dummyMetric.sh
+./dummyMetric.sh
+
+

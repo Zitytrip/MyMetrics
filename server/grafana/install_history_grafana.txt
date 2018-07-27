@@ -1,0 +1,23 @@
+
+# GRAFNANA - WEB FRONTEND FOR SERVER MONITORING
+nano g.sh
+./g.sh
+systemctl status grafana-server
+nano checkStatsd.sh
+chmod a+x ./checkStatsd.sh
+./checkStatsd.sh
+systemctl start grafana-server
+systemctl status grafana-server
+grafana-cli plugins install raintank-worldping-app
+systemctl restart grafana-server
+grafana-cli plugins install grafana-clock-panel
+systemctl restart grafana-server
+
+
+# CREATE DEMO METRICS
+echo "dummy.bongo:1|c" | nc -C -w 1 -u localhost 8125
+nano dummyMetric.sh
+chmod a+x ./dummyMetric.sh
+./dummyMetric.sh
+
+
